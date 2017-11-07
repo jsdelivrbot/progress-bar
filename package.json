@@ -1,0 +1,23 @@
+{
+  "name": "progress-bars",
+  "version": "1.0.0",
+  "description": "Change progress bar as per button click",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Shpmen Muhury",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Shomen/progress-bar.git"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-webserver": "^0.9.1",
+    "xmlhttprequest": "^1.8.0"
+  }
+}
