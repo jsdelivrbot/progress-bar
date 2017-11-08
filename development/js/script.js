@@ -12,10 +12,10 @@
 		dataApi = this.response;	
 		if (dataApi){
 			if (dataApi.limit){
-				document.getElementById("container").style.width=dataApi.limit+'px';
+				document.getElementById("container").style.width=dataApi.limit+'px';				
 			}
 			for (var i = 0; i < dataApi.bars.length; i++) {
-				createBar(i+1,dataApi.bars[i]);			
+				createBar(i+1,dataApi.bars[i]);							
 			}
 			createDD(dataApi.bars.length);
 			
@@ -44,6 +44,7 @@ function createBar(ele,data){
 	var spnPrgrs = document.createElement("span");  
 	spnPrgrs.id = 'bar'+ele+'-progress';
 	spnPrgrs.className = 'bar-progress';
+	spnPrgrs.style.width=dataApi.limit+'px';	
 	spnInner.appendChild(spnPrgrs);
 	
 	wd= data*1;	
