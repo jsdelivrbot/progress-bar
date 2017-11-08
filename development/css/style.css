@@ -31,7 +31,9 @@
 .bar-progress {
   color: #333;
   line-height: 40px;
-  font-weight: 700; }
+  font-weight: 700;
+  display:block;
+  text-align:center; }
 
 #menu {
   list-style: none;
