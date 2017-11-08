@@ -1,4 +1,4 @@
-# progress-bar
+# Progress Bar
 Dynamically set Progress Bar as per API endpoint
 
 -----------------------
