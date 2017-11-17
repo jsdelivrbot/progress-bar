@@ -4,7 +4,7 @@
 // Get API Data
 	
 	var xhr = new XMLHttpRequest();
-	xhr.open("GET", "http://pb-api.herokuapp.com/bars/");
+	xhr.open("GET", "https://pb-api.herokuapp.com/bars/");
 	xhr.responseType = 'json';
 	var dataApi;	
 	xhr.onload = function(e) {
