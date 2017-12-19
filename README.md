@@ -9,7 +9,7 @@ Please run this under Node with "gulp" command
 OR
 
 <h2>
-Copy Development folder and run "index.html" file under the folder. 
+Development folder- run "index.html" file under the folder- http://cdn.rawgit.com/Shomen/progress-bar/master/development/index.html. 
 </h2>
 
 <h2>
