@@ -12,6 +12,8 @@ OR
 Development folder- run "index.html" file under the folder- http://cdn.rawgit.com/Shomen/progress-bar/master/development/index.html. 
 </h2>
 
+OR
+
 <h2>
   Please check here  https://api-progress-bar.herokuapp.com/
 </h2>
